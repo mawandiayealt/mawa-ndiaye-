@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0077)file:///C:/Users/Easy%20Services%20Pro/Downloads/mawa_ndiaye_site%20(16).html -->
+<!-- saved from url=(0064)file:///C:/Users/Easy%20Services%20Pro/Downloads/index.html.html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -399,10 +399,10 @@
     </div>
   </div>
   <nav>
-    <a href="file:///C:/Users/Easy%20Services%20Pro/Downloads/mawa_ndiaye_site%20(16).html#livres">Mes livres</a>
-    <a href="file:///C:/Users/Easy%20Services%20Pro/Downloads/mawa_ndiaye_site%20(16).html#paiement">Commander</a>
+    <a href="file:///C:/Users/Easy%20Services%20Pro/Downloads/index.html.html#livres">Mes livres</a>
+    <a href="file:///C:/Users/Easy%20Services%20Pro/Downloads/index.html.html#paiement">Commander</a>
     <a href="mailto:marketermanager@gmail.com">Contact</a>
-    <a href="file:///C:/Users/Easy%20Services%20Pro/Downloads/mawa_ndiaye_site%20(16).html#contact" style="color:var(--orange); font-weight:700;">Travailler ensemble</a>
+    <a href="file:///C:/Users/Easy%20Services%20Pro/Downloads/index.html.html#contact" style="color:var(--orange); font-weight:700;">Travailler ensemble</a>
     <a href="https://www.linkedin.com/in/mawandiaye/?locale=en" target="_blank" style="display:inline-flex;align-items:center;gap:5px;background:#0A66C2;color:#fff;padding:5px 12px;border-radius:6px;font-size:13px;font-weight:700;">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
       LinkedIn
@@ -930,7 +930,7 @@
         </style>
 
         <!-- SECTION Q1 -->
-        <div class="qs qa" id="qs-1" style="display: block;">
+        <div class="qs qa" id="qs-1">
           <div class="qsh"><h4>Section 1 — Vous identifier</h4><p>Ces informations permettent de vous contacter et de personnaliser la réponse.</p></div>
           <div class="qq"><label class="ql">1. Prénom et nom <span class="qrs">*</span></label><input type="text" class="qinp" id="qq1" placeholder="Ex : Aminata Diallo"><div class="qerrmsg" id="qe-1">Ce champ est obligatoire.</div></div>
           <div class="qq"><label class="ql">2. Numéro WhatsApp <span class="qrs">*</span></label><div class="qh" style="font-family:&#39;Lato&#39;,sans-serif;font-size:12px;color:#888;margin-bottom:9px;font-style:italic;">Incluez votre indicatif pays (ex : +221, +33, +1…)</div><input type="tel" class="qinp" id="qq2" placeholder="Ex: +221 77 000 00 00 / +33 6 00 00 00 00"><div class="qerrmsg" id="qe-2">Ce champ est obligatoire.</div></div>
@@ -972,7 +972,7 @@
         </div>
 
         <!-- SECTION Q2 -->
-        <div class="qs" id="qs-2" style="display: none;">
+        <div class="qs" id="qs-2">
           <div class="qsh"><h4>Section 2 — Votre besoin principal</h4><p>Identifier précisément votre besoin permet d'orienter vers la bonne intervention.</p></div>
           <div class="qq">
             <label class="ql">6. Quel est votre besoin principal ? <span class="qrs">*</span></label>
@@ -1027,7 +1027,7 @@
         </div>
 
         <!-- SECTION Q3 -->
-        <div class="qs" id="qs-3" style="display: none;">
+        <div class="qs" id="qs-3">
           <div class="qsh"><h4>Section 3 — Niveau &amp; Format</h4><p>Ces informations permettent d'adapter le contenu et le format de l'intervention.</p></div>
           <div class="qq">
             <label class="ql">9. Votre niveau actuel en marketing <span class="qrs">*</span></label>
@@ -1069,7 +1069,7 @@
         </div>
 
         <!-- SECTION Q4 -->
-        <div class="qs" id="qs-4" style="display: none;">
+        <div class="qs" id="qs-4">
           <div class="qsh"><h4>Section 4 — Disponibilité &amp; Investissement</h4><p>Ces informations sont confidentielles et servent uniquement à préparer votre proposition.</p></div>
           <div class="qq">
             <label class="ql">12. Niveau d'urgence <span class="qrs">*</span></label>
@@ -1127,7 +1127,7 @@
         </div>
 
         <!-- SUCCÈS -->
-        <div class="qsucc" id="qsucc" style="display: none;">
+        <div class="qsucc" id="qsucc">
           <div class="qsuccico">✓</div>
           <h4>Merci pour vos réponses !</h4>
           <p>Mawa Ndiaye a bien reçu votre questionnaire et vous contactera très prochainement sur votre WhatsApp pour un premier échange.</p>
@@ -1155,7 +1155,9 @@
   window.qShow = function(n) {
     for(var i=1; i<=qTotal; i++) {
       var s = document.getElementById('qs-'+i);
-      if(s) s.style.display = (i===n) ? 'block' : 'none';
+      if(!s) continue;
+      s.classList.remove('qa');
+      if(i===n) s.classList.add('qa');
     }
     var succ = document.getElementById('qsucc');
     if(succ) succ.style.display = 'none';
@@ -1168,18 +1170,21 @@
   window.qToggleSub = function(t) {
     var sub = document.getElementById('qsub'+t);
     var chk = document.getElementById('qchk'+t);
-    if(sub && chk) sub.style.display = chk.checked ? 'block' : 'none';
+    if(sub && chk) {
+      if(chk.checked) sub.classList.add('qvis');
+      else sub.classList.remove('qvis');
+    }
   };
 
   document.addEventListener('change', function(e) {
     var target = e.target;
-    if((target.type==='radio'||target.type==='checkbox')) {
-      var oi = target.closest('.qoi');
+    if(target.type==='radio' || target.type==='checkbox') {
+      var oi = target.closest ? target.closest('.qoi') : null;
       if(!oi) return;
       if(target.type==='radio') {
         var radios = document.querySelectorAll('input[name="'+target.name+'"]');
         for(var i=0;i<radios.length;i++) {
-          var p = radios[i].closest('.qoi');
+          var p = radios[i].closest ? radios[i].closest('.qoi') : null;
           if(p) p.classList.remove('qsel');
         }
         if(target.checked) oi.classList.add('qsel');
@@ -1198,44 +1203,63 @@
     function he(id){ qHideErr(id); }
 
     if(n===1){
-      var q1=document.getElementById('qq1'); q1&&q1.value.trim() ? he('qe-1') : se('qe-1');
-      var q2=document.getElementById('qq2'); q2&&q2.value.trim() ? he('qe-2') : se('qe-2');
+      var q1=document.getElementById('qq1');
+      if(q1 && q1.value.trim()) he('qe-1'); else se('qe-1');
+      var q2=document.getElementById('qq2');
+      if(q2 && q2.value.trim()) he('qe-2'); else se('qe-2');
       var q3=document.getElementById('qq3');
-      q3&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(q3.value.trim()) ? he('qe-3') : se('qe-3');
+      if(q3 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(q3.value.trim())) he('qe-3'); else se('qe-3');
       var r4=document.querySelectorAll('input[name="qq4"]');
-      Array.prototype.some.call(r4,function(r){return r.checked;}) ? he('qe-4') : se('qe-4');
-      var q5=document.getElementById('qq5'); q5&&q5.value ? he('qe-5') : se('qe-5');
+      var checked4=false; for(var i=0;i<r4.length;i++){if(r4[i].checked){checked4=true;break;}}
+      checked4 ? he('qe-4') : se('qe-4');
+      var q5=document.getElementById('qq5');
+      if(q5 && q5.value) he('qe-5'); else se('qe-5');
     }
     if(n===2){
       var r6=document.querySelectorAll('input[name="qq6"]');
-      Array.prototype.some.call(r6,function(r){return r.checked;}) ? he('qe-6') : se('qe-6');
-      var q7=document.getElementById('qq7'); q7&&q7.value.trim() ? he('qe-7') : se('qe-7');
+      var checked6=false; for(var i=0;i<r6.length;i++){if(r6[i].checked){checked6=true;break;}}
+      checked6 ? he('qe-6') : se('qe-6');
+      var q7=document.getElementById('qq7');
+      if(q7 && q7.value.trim()) he('qe-7'); else se('qe-7');
       var r8=document.querySelectorAll('input[name="qq8"]');
-      Array.prototype.some.call(r8,function(r){return r.checked;}) ? he('qe-8') : se('qe-8');
+      var checked8=false; for(var i=0;i<r8.length;i++){if(r8[i].checked){checked8=true;break;}}
+      checked8 ? he('qe-8') : se('qe-8');
     }
     if(n===3){
       var r9=document.querySelectorAll('input[name="qq9"]');
-      Array.prototype.some.call(r9,function(r){return r.checked;}) ? he('qe-9') : se('qe-9');
+      var c9=false; for(var i=0;i<r9.length;i++){if(r9[i].checked){c9=true;break;}}
+      c9 ? he('qe-9') : se('qe-9');
       var r10=document.querySelectorAll('input[name="qq10"]');
-      Array.prototype.some.call(r10,function(r){return r.checked;}) ? he('qe-10') : se('qe-10');
+      var c10=false; for(var i=0;i<r10.length;i++){if(r10[i].checked){c10=true;break;}}
+      c10 ? he('qe-10') : se('qe-10');
       var r11=document.querySelectorAll('input[name="qq11"]');
-      Array.prototype.some.call(r11,function(r){return r.checked;}) ? he('qe-11') : se('qe-11');
+      var c11=false; for(var i=0;i<r11.length;i++){if(r11[i].checked){c11=true;break;}}
+      c11 ? he('qe-11') : se('qe-11');
     }
     if(n===4){
       var r12=document.querySelectorAll('input[name="qq12"]');
-      Array.prototype.some.call(r12,function(r){return r.checked;}) ? he('qe-12') : se('qe-12');
+      var c12=false; for(var i=0;i<r12.length;i++){if(r12[i].checked){c12=true;break;}}
+      c12 ? he('qe-12') : se('qe-12');
       var r13=document.querySelectorAll('input[name="qq13"]');
-      Array.prototype.some.call(r13,function(r){return r.checked;}) ? he('qe-13') : se('qe-13');
+      var c13=false; for(var i=0;i<r13.length;i++){if(r13[i].checked){c13=true;break;}}
+      c13 ? he('qe-13') : se('qe-13');
       var r14=document.querySelectorAll('input[name="qq14"]');
-      Array.prototype.some.call(r14,function(r){return r.checked;}) ? he('qe-14') : se('qe-14');
+      var c14=false; for(var i=0;i<r14.length;i++){if(r14[i].checked){c14=true;break;}}
+      c14 ? he('qe-14') : se('qe-14');
       var r15=document.querySelectorAll('input[name="qq15"]');
-      Array.prototype.some.call(r15,function(r){return r.checked;}) ? he('qe-15') : se('qe-15');
+      var c15=false; for(var i=0;i<r15.length;i++){if(r15[i].checked){c15=true;break;}}
+      c15 ? he('qe-15') : se('qe-15');
     }
     return ok;
   };
 
-  window.qNext = function(n){ if(window.qValidate(n)) window.qShow(n+1); };
-  window.qPrev = function(n){ window.qShow(n-1); };
+  window.qNext = function(n){
+    if(window.qValidate(n)) window.qShow(n+1);
+  };
+
+  window.qPrev = function(n){
+    window.qShow(n-1);
+  };
 
   window.qSubmit = async function(){
     if(!window.qValidate(4)) return;
@@ -1245,14 +1269,14 @@
       email: document.getElementById('qq3').value,
       profil: (document.querySelector('input[name="qq4"]:checked')||{}).value||'',
       secteur: document.getElementById('qq5').value,
-      besoins: Array.prototype.map.call(document.querySelectorAll('input[name="qq6"]:checked'),function(i){return i.value;}).join(', '),
+      besoins: (function(){var r=document.querySelectorAll('input[name="qq6"]:checked'),a=[];for(var i=0;i<r.length;i++)a.push(r[i].value);return a.join(', ');})(),
       projet: document.getElementById('qq7').value,
       zone: (document.querySelector('input[name="qq8"]:checked')||{}).value||'',
       niveau: (document.querySelector('input[name="qq9"]:checked')||{}).value||'',
-      format: Array.prototype.map.call(document.querySelectorAll('input[name="qq10"]:checked'),function(i){return i.value;}).join(', '),
+      format: (function(){var r=document.querySelectorAll('input[name="qq10"]:checked'),a=[];for(var i=0;i<r.length;i++)a.push(r[i].value);return a.join(', ');})(),
       participants: (document.querySelector('input[name="qq11"]:checked')||{}).value||'',
       urgence: (document.querySelector('input[name="qq12"]:checked')||{}).value||'',
-      horaires: Array.prototype.map.call(document.querySelectorAll('input[name="qq13"]:checked'),function(i){return i.value;}).join(', '),
+      horaires: (function(){var r=document.querySelectorAll('input[name="qq13"]:checked'),a=[];for(var i=0;i<r.length;i++)a.push(r[i].value);return a.join(', ');})(),
       budget: (document.querySelector('input[name="qq14"]:checked')||{}).value||'',
       source: (document.querySelector('input[name="qq15"]:checked')||{}).value||''
     };
@@ -1263,25 +1287,23 @@
         body:JSON.stringify(data)
       });
       if(response.ok){
-        for(var i=1;i<=qTotal;i++){var s=document.getElementById('qs-'+i);if(s)s.style.display='none';}
-        var succ=document.getElementById('qsucc'); if(succ)succ.style.display='block';
-        var bar=document.getElementById('qProgressBar'); if(bar)bar.style.width='100%';
-        var contact=document.getElementById('contact'); if(contact)contact.scrollIntoView({behavior:'smooth'});
+        for(var i=1;i<=qTotal;i++){var s=document.getElementById('qs-'+i);if(s)s.classList.remove('qa');}
+        var succ=document.getElementById('qsucc');
+        if(succ)succ.style.display='block';
+        var bar=document.getElementById('qProgressBar');
+        if(bar)bar.style.width='100%';
+        var contact=document.getElementById('contact');
+        if(contact)contact.scrollIntoView({behavior:'smooth'});
       } else {
-        alert('Une erreur est survenue. Contactez-nous directement sur WhatsApp.');
+        alert('Erreur. Contactez-nous directement sur WhatsApp.');
       }
     } catch(err){
       alert('Problème de connexion. Contactez-nous sur WhatsApp.');
     }
   };
 
-  // Init : afficher section 1, cacher les autres
+  // Init
   document.addEventListener('DOMContentLoaded', function(){
-    for(var i=1;i<=qTotal;i++){
-      var s=document.getElementById('qs-'+i);
-      if(s) s.style.display = (i===1) ? 'block' : 'none';
-    }
-    var succ=document.getElementById('qsucc'); if(succ) succ.style.display='none';
     qUpdateProgress();
   });
 
